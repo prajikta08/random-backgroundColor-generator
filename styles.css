@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Work Sans', sans-serif;
+}
+.main {
+  text-align: center;
+}
+.main h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.main button{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: rgb(207, 205, 205);
+  border: none;
+
+  
+}
+.main p{
+  display: none;
+  margin-top: 20px;
+  font-size: 19px;
+}
+
